@@ -1,0 +1,194 @@
+/* Yleinen */
+html {
+    overflow-y: scroll;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    width: 20%;
+    background-color: #a8b9a8;
+    border-right: 3px solid #d4a373;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 95vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-width: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.kuva {
+    padding-top: 5%;
+}
+img.profiilikuva {
+    width: 40%;
+    border-radius: 20%;
+    border: 3px solid #333333;
+}
+
+/* Navigation */
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #a8b9a8;
+}
+
+.nav {
+    color: #333333;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.nav.active,
+.nav:hover {
+    background-color: #9caf9c;
+    border-right: 6px solid #c2a661;
+}
+
+/* Some ikonit */
+.some {
+    color: #333333;
+    font-size: 48px;
+}
+
+.some:hover {
+    color: #d4a373;
+}
+
+/* Main ja Body */
+body {
+    background-color: #FFFFF0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+main {
+    margin-left: 20%;
+    padding: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    width: 20%;
+    background-color: #a8b9a8;
+    position: fixed;
+    border-right: 3px solid #d4a373;
+    bottom: 0;
+    left: 0;
+    text-align: center; 
+    height: 15vh;
+}
+
+/* Heading ja Teksti */
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #36454F;
+}
+
+.cv-otsikko {
+    border: none;
+    border-top: 2.5px solid #d4a373;
+}
+
+.cv-teksti {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    color: #4a4a4a;
+    font-size: 19px;
+}
+
+.koulutus, 
+.kokemus, 
+.suositukset {
+    flex: 1;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+hr {
+    border: none;
+    border-top: 1.5px solid #c2a661;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 3px solid #d4a373;
+    }
+
+    /* Profile Image */
+    img.profiilikuva {
+        width: 30%;
+    }
+
+    /* Navigation */
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .nav.active,
+    .nav:hover {
+        border-right: none;
+        border-top: 3px solid #c2a661;
+    }
+
+    /* Main content */
+    main {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        width: 100%;
+        position: static;
+        border-right: none;
+        border-top: 3px solid #d4a373;
+        height: auto;
+        padding-top: 2% ;
+        padding-bottom: 2%;
+    }
+
+    /* Social Media Icons */
+    .some {
+        font-size: 36px;
+    }
+
+    /* Text adjustments */
+    .cv-teksti {
+        font-size: 16px;
+    }
+}
