@@ -123,6 +123,25 @@ h1, h2 {
     width: 738px;
     height: 415px;
 }
+#button {
+    font-size: 20px;
+    color: #36454F;
+    background-color: #a8b9a8;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid #c2a661;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #36454F;
+    color: #c2a661;
+    border: 2px solid #d4a373;
+}
 
 .cv-otsikko {
     border: none;
