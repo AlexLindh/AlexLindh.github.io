@@ -123,6 +123,9 @@ h1, h2 {
     width: 738px;
     height: 415px;
 }
+#cta {
+    text-align: center;
+}
 #button {
     font-size: 20px;
     color: #36454F;
