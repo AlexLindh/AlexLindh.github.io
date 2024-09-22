@@ -114,15 +114,10 @@ h1, h2 {
 .videontila {
     display: flex;
     justify-content: center;
-    height: 75vh;
     width: 100%;
     padding: 2%;
 }
-#video{
-    border: 5px solid #c2a661;
-    width: 738px;
-    height: 415px;
-}
+
 #cta {
     text-align: center;
 }
@@ -144,6 +139,9 @@ h1, h2 {
     background-color: #36454F;
     color: #c2a661;
     border: 2px solid #d4a373;
+}
+#esittely {
+    text-align: center;
 }
 
 .cv-otsikko {
