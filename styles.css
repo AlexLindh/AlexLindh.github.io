@@ -121,7 +121,7 @@ h1, h2 {
 #cta {
     text-align: center;
 }
-#button {
+#ctanappula {
     font-size: 20px;
     color: #36454F;
     background-color: #a8b9a8;
@@ -135,7 +135,7 @@ h1, h2 {
     transition-duration: 0.6s;
     cursor: pointer;
 }
-#button:hover {
+#ctanappula:hover {
     background-color: #36454F;
     color: #c2a661;
     border: 2px solid #d4a373;
