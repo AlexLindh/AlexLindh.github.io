@@ -207,7 +207,7 @@ form {
 
     /* Profile Image */
     .kuva {
-        width: 30%;
+        width: 40%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -215,7 +215,7 @@ form {
     }
     
     .kuva img {
-        width: 70%;
+        width: 90%;
         height: auto;
         border-radius: 10%;
     }
