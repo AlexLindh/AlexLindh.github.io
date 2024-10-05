@@ -143,7 +143,9 @@ h1, h2 {
 #esittely {
     text-align: center;
 }
-
+#suoritukset{
+    text-align: center;
+}
 .cv-otsikko {
     border: none;
     border-top: 2.5px solid #d4a373;
